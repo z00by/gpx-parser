@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpxParser", "GpxParser\GpxParser.csproj", "{2CF7DF98-E39F-495A-8180-953C4F2879C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpxParser", "GpxParser\GpxParser.csproj", "{2CF7DF98-E39F-495A-8180-953C4F2879C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analysis", "AverageSpeed\Analysis.csproj", "{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisTest", "AnalysisTest\AnalysisTest.csproj", "{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
