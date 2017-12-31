@@ -1,0 +1,36 @@
+﻿<Window x:Class="TripPlotter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TripPlotter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Width="516">
+        <Button x:Name="LoadDirectoryButton" Content="Open Directory.." HorizontalAlignment="Left" Margin="195,289,0,0" VerticalAlignment="Top" Click="LoadDirectoryButton_Click" RenderTransformOrigin="0.25,0"/>
+        <ListBox x:Name="TripsListBox" HorizontalAlignment="Left" Height="274" Margin="10,10,0,0" VerticalAlignment="Top" Width="496">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding StartDateTime}" />
+                        <TextBlock Grid.Column="1" Text=" - " />
+                        <TextBlock Grid.Column="2" Text="{Binding Distance}" />
+                        <TextBlock Grid.Column="3" Text=" miles (" />
+                        <TextBlock Grid.Column="4" Text="{Binding AverageSpeed}" />
+                        <TextBlock Grid.Column="5" Text="mph)" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>

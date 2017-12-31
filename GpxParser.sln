@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpxParser", "GpxParser\GpxParser.csproj", "{2CF7DF98-E39F-495A-8180-953C4F2879C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalysisTest", "AnalysisTest\AnalysisTest.csproj", "{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analysis", "AverageSpeed\Analysis.csproj", "{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPlotter", "TripPlotter\TripPlotter.csproj", "{8E21E19C-0DD7-4BF1-BB6F-7A916018EE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisTest", "AnalysisTest\AnalysisTest.csproj", "{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analysis", "Trips\Analysis.csproj", "{A51A396C-52A0-4FA3-9843-EE8F695A1C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpxParse", "GpxParse\GpxParse.csproj", "{F2006B67-AA21-4794-8E09-8C8F4FCD6C6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CF7DF98-E39F-495A-8180-953C4F2879C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73E0E7D3-69AA-48D7-80CA-8B1995BEA385}.Release|Any CPU.Build.0 = Release|Any CPU
 		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{856F3B85-4E91-4F4C-BF1B-E9D5069927EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E21E19C-0DD7-4BF1-BB6F-7A916018EE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E21E19C-0DD7-4BF1-BB6F-7A916018EE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E21E19C-0DD7-4BF1-BB6F-7A916018EE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E21E19C-0DD7-4BF1-BB6F-7A916018EE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51A396C-52A0-4FA3-9843-EE8F695A1C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51A396C-52A0-4FA3-9843-EE8F695A1C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51A396C-52A0-4FA3-9843-EE8F695A1C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51A396C-52A0-4FA3-9843-EE8F695A1C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2006B67-AA21-4794-8E09-8C8F4FCD6C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2006B67-AA21-4794-8E09-8C8F4FCD6C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2006B67-AA21-4794-8E09-8C8F4FCD6C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2006B67-AA21-4794-8E09-8C8F4FCD6C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

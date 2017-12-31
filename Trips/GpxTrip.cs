@@ -19,7 +19,7 @@ namespace ZoobySoft.CyclePlot.Analysis
     {
         public static IEnumerable<Trip> ReadTrips(string path)
         {
-            if (!File.Exists(path))
+            if (!Directory.Exists(path))
             {
                 return Enumerable.Empty<Trip>();
             }
