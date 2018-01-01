@@ -62,7 +62,7 @@ namespace ZoobySoft.CyclePlot.Analysis
 
         public Speed GetAverageSpeed()
         {
-            return new Speed(GetTotalDistance(), GetTotalTimeSpan().Seconds);
+            return new Speed(GetTotalDistance(), GetTotalTimeSpan().TotalSeconds);
         }
 
         public DateTime StartTime { get; }
